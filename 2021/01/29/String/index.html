@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="I/O流, ZZH">
-    <meta name="description" content="I&amp;#x2F;O流InputStream&amp;#x2F;Read前者字节输入流。后者字符输入流OutputStream&amp;#x2F;Writer前者字节输入流。后者字符输入流BIO&amp;#x2F;NIO&amp;#x2F;AIOBlock IO:同步阻塞式I">
+    <meta name="keywords" content="String, ZZH">
+    <meta name="description" content="String不是基本数据类型与char的区别char相当于一个整形，字符串相当于一个地址用char表示文本要使用数组，比较麻烦String不可变但引用可变是final类length（），数组是length属性常用方法indexOf（）：返回">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +19,7 @@
 
     
 
-    <title>I/O流 | ZZH</title>
+    <title>String | ZZH</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">I/O流</h1>
+                    <h1 class="description center-align post-title">String</h1>
                 </div>
             </div>
         </div>
@@ -428,9 +428,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -442,7 +446,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-02-03
+                    2021-01-29
                 </div>
                 
 
@@ -463,7 +467,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="I-x2F-O流"><a href="#I-x2F-O流" class="headerlink" title="I&#x2F;O流"></a>I&#x2F;O流</h1><h2 id="InputStream-x2F-Read"><a href="#InputStream-x2F-Read" class="headerlink" title="InputStream&#x2F;Read"></a>InputStream&#x2F;Read</h2><h3 id="前者字节输入流。后者字符输入流"><a href="#前者字节输入流。后者字符输入流" class="headerlink" title="前者字节输入流。后者字符输入流"></a>前者字节输入流。后者字符输入流</h3><h2 id="OutputStream-x2F-Writer"><a href="#OutputStream-x2F-Writer" class="headerlink" title="OutputStream&#x2F;Writer"></a>OutputStream&#x2F;Writer</h2><h3 id="前者字节输入流。后者字符输入流-1"><a href="#前者字节输入流。后者字符输入流-1" class="headerlink" title="前者字节输入流。后者字符输入流"></a>前者字节输入流。后者字符输入流</h3><h2 id="BIO-x2F-NIO-x2F-AIO"><a href="#BIO-x2F-NIO-x2F-AIO" class="headerlink" title="BIO&#x2F;NIO&#x2F;AIO"></a>BIO&#x2F;NIO&#x2F;AIO</h2><h3 id="Block-IO-同步阻塞式IO，传统IO，特点简单方便，并发处理能力低"><a href="#Block-IO-同步阻塞式IO，传统IO，特点简单方便，并发处理能力低" class="headerlink" title="Block IO:同步阻塞式IO，传统IO，特点简单方便，并发处理能力低"></a>Block IO:同步阻塞式IO，传统IO，特点简单方便，并发处理能力低</h3><h3 id="Non-IO：同步非阻塞式IO，实现了多路复用。"><a href="#Non-IO：同步非阻塞式IO，实现了多路复用。" class="headerlink" title="Non IO：同步非阻塞式IO，实现了多路复用。"></a>Non IO：同步非阻塞式IO，实现了多路复用。</h3><h3 id="Asynchronous-IO：NIO的升级，实现了异步非阻塞式IO，异步IO基于事件和回调机制。"><a href="#Asynchronous-IO：NIO的升级，实现了异步非阻塞式IO，异步IO基于事件和回调机制。" class="headerlink" title="Asynchronous IO：NIO的升级，实现了异步非阻塞式IO，异步IO基于事件和回调机制。"></a>Asynchronous IO：NIO的升级，实现了异步非阻塞式IO，异步IO基于事件和回调机制。</h3><p><img src="/../images/I-O%E6%B5%81/IO%E6%B5%81.png"></p>
+                <h2 id="String"><a href="#String" class="headerlink" title="String"></a>String</h2><h3 id="不是基本数据类型"><a href="#不是基本数据类型" class="headerlink" title="不是基本数据类型"></a>不是基本数据类型</h3><h3 id="与char的区别"><a href="#与char的区别" class="headerlink" title="与char的区别"></a>与char的区别</h3><h4 id="char相当于一个整形，字符串相当于一个地址"><a href="#char相当于一个整形，字符串相当于一个地址" class="headerlink" title="char相当于一个整形，字符串相当于一个地址"></a>char相当于一个整形，字符串相当于一个地址</h4><h4 id="用char表示文本要使用数组，比较麻烦"><a href="#用char表示文本要使用数组，比较麻烦" class="headerlink" title="用char表示文本要使用数组，比较麻烦"></a>用char表示文本要使用数组，比较麻烦</h4><h3 id="String不可变但引用可变"><a href="#String不可变但引用可变" class="headerlink" title="String不可变但引用可变"></a>String不可变但引用可变</h3><h3 id="是final类"><a href="#是final类" class="headerlink" title="是final类"></a>是final类</h3><h3 id="length（），数组是length属性"><a href="#length（），数组是length属性" class="headerlink" title="length（），数组是length属性"></a>length（），数组是length属性</h3><h3 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h3><h4 id="indexOf（）：返回字符索引"><a href="#indexOf（）：返回字符索引" class="headerlink" title="indexOf（）：返回字符索引"></a>indexOf（）：返回字符索引</h4><h4 id="charAt（）返回索引处的字符"><a href="#charAt（）返回索引处的字符" class="headerlink" title="charAt（）返回索引处的字符"></a>charAt（）返回索引处的字符</h4><h4 id="replace（）字符替换"><a href="#replace（）字符替换" class="headerlink" title="replace（）字符替换"></a>replace（）字符替换</h4><h4 id="length（）字符串长度"><a href="#length（）字符串长度" class="headerlink" title="length（）字符串长度"></a>length（）字符串长度</h4><h4 id="equals（）比较"><a href="#equals（）比较" class="headerlink" title="equals（）比较"></a>equals（）比较</h4><h4 id="toLowercase（）：转换成小写字母"><a href="#toLowercase（）：转换成小写字母" class="headerlink" title="toLowercase（）：转换成小写字母"></a>toLowercase（）：转换成小写字母</h4><h4 id="toUpperCase（）"><a href="#toUpperCase（）" class="headerlink" title="toUpperCase（）"></a>toUpperCase（）</h4><h4 id="subString（）：截取字符串"><a href="#subString（）：截取字符串" class="headerlink" title="subString（）：截取字符串"></a>subString（）：截取字符串</h4><h2 id="String和StringBuilding和StringBuffer的区别"><a href="#String和StringBuilding和StringBuffer的区别" class="headerlink" title="String和StringBuilding和StringBuffer的区别"></a>String和StringBuilding和StringBuffer的区别</h2><h3 id="少量数据用String"><a href="#少量数据用String" class="headerlink" title="少量数据用String"></a>少量数据用String</h3><h3 id="大量数据但是单线程用StringBuilding"><a href="#大量数据但是单线程用StringBuilding" class="headerlink" title="大量数据但是单线程用StringBuilding"></a>大量数据但是单线程用StringBuilding</h3><h3 id="大量数据但是多线程用StringBuffer"><a href="#大量数据但是多线程用StringBuffer" class="headerlink" title="大量数据但是多线程用StringBuffer"></a>大量数据但是多线程用StringBuffer</h3><p><img src="/../images/String/%E5%B8%B8%E8%A7%81%E7%9A%84API.png"></p>
 
                 
             </div>
@@ -490,7 +494,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/02/03/I-O%E6%B5%81/">http://example.com/2021/02/03/I-O%E6%B5%81/</a>
+                    <a href="http://example.com/2021/01/29/String/">http://example.com/2021/01/29/String/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -527,7 +531,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/Java/">
+                                    <span class="chip bg-color">Java</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -703,13 +711,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/02/11/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/">
+                <a href="/2021/01/29/JVM-JRE-JDK/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="反射机制">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="JVM/JRE/JDK">
                         
-                        <span class="card-title">反射机制</span>
+                        <span class="card-title">JVM/JRE/JDK</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -720,7 +728,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-11
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-29
                         </span>
                         <span class="publish-author">
                             
@@ -745,16 +753,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
+                Current&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/03/Java%E4%B8%AD%E6%AF%94%E8%BE%83%E7%9B%B8%E5%90%8C%E7%9A%84%E6%96%B9%E6%B3%95/">
+                <a href="/2021/01/29/String/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Java中比较相同的方法">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="String">
                         
-                        <span class="card-title">Java中比较相同的方法</span>
+                        <span class="card-title">String</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -765,7 +773,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-29
                             </span>
                         <span class="publish-author">
                             
@@ -774,6 +782,15 @@
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Java/">
+                        <span class="chip bg-color">Java</span>
+                    </a>
+                    
                 </div>
                 
             </div>
