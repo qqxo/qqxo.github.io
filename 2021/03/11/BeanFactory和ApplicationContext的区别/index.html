@@ -4,17 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="简历, ZZH">
-    <meta name="description" content=" 
-     詹志海
- 
-
-
-
-
-个人信息
-性 别：男                                                                               年 龄：23
-手 机：132">
+    <meta name="keywords" content="BeanFactory和ApplicationContext的区别, ZZH">
+    <meta name="description" content="BeanFactory和ApplicationContext是Spring的两大核心接口，都可以当做 Spring的容器。其中ApplicationContext是BeanFactory的子接口。
+依赖关系BeanFactory：是Spri">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +20,7 @@
 
     
 
-    <title>简历 | ZZH</title>
+    <title>BeanFactory和ApplicationContext的区别 | ZZH</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -318,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">简历</h1>
+                    <h1 class="description center-align post-title">BeanFactory和ApplicationContext的区别</h1>
                 </div>
             </div>
         </div>
@@ -439,8 +431,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
-                                <span class="chip bg-color">个人简历</span>
+                            <a href="/tags/Spring/">
+                                <span class="chip bg-color">Spring</span>
                             </a>
                         
                     </div>
@@ -455,7 +447,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-04-11
+                    2021-03-11
                 </div>
                 
 
@@ -476,40 +468,23 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                 <center>
-     <h1>詹志海</h1>
- </center>
-
-
-
-
-<h2 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h2><ul>
-<li>性 别：男                                                                               年 龄：23</li>
-<li>手 机：13218062076                                                            邮 箱：<a href="mailto:&#122;&#122;&#104;&#95;&#x77;&#x6f;&#114;&#107;&#57;&#x38;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#111;&#109;">&#122;&#122;&#104;&#95;&#x77;&#x6f;&#114;&#107;&#57;&#x38;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#111;&#109;</a>    </li>
-<li>专 业：计算机科学与技术                                                     岗 位：Java 研发工程师</li>
+                <p><strong>BeanFactory和ApplicationContext是Spring的两大核心接口，都可以当做 Spring的容器。其中ApplicationContext是BeanFactory的子接口。</strong></p>
+<h2 id="依赖关系"><a href="#依赖关系" class="headerlink" title="依赖关系"></a>依赖关系</h2><p>BeanFactory：是Spring里面最底层的接口，包含了各种Bean的定义，读取 bean配置文档，管理bean的加载、实例化，控制bean的生命周期，维护bean 之间的依赖关系。</p>
+<p>ApplicationContext接口作为BeanFactory的派生，除了提供BeanFactory所具</p>
+<p>有的功能外，还提供了更完整的框架功能：</p>
+<ul>
+<li>继承MessageSource，因此支持国际化。统一的资源文件访问方式。</li>
+<li>提供在监听器中注册bean的事件。</li>
+<li>同时加载多个配置文件。</li>
+<li>载入多个（有继承关系）上下文 ，使得每一个上下文都专注于一个特定的层次，比如应用的web层。</li>
 </ul>
-<h2 id="教育经历"><a href="#教育经历" class="headerlink" title="教育经历"></a>教育经历</h2><ul>
-<li>南京工业大学浦江学院                   2017.9~2021.7             计算机科学与技术专业（嵌入式）- 本科</li>
-</ul>
-<h2 id="获奖经历"><a href="#获奖经历" class="headerlink" title="获奖经历"></a>获奖经历</h2><ul>
-<li>优秀学业奖学金</li>
-</ul>
-<h2 id="个人账号"><a href="#个人账号" class="headerlink" title="个人账号"></a>个人账号</h2><ul>
-<li>github 地址：<a target="_blank" rel="noopener" href="https://github.com/qqxo">https://github.com/qqxo</a></li>
-<li>个人博客地址：<a target="_blank" rel="noopener" href="https://qqxo.github.io/">https://qqxo.github.io/</a></li>
-</ul>
-<h2 id="专业技能"><a href="#专业技能" class="headerlink" title="专业技能"></a>专业技能</h2><ul>
-<li><strong>编程语言：</strong>Java（熟练）；Shell（熟练）；</li>
-<li><strong>后端框架：</strong>Spring（熟练）；Spring Boot（熟练）；Spring MVC（熟练）；Mybatis（熟练）</li>
-<li><strong>数据库：</strong>MySQL（熟练）；Oracle（了解）</li>
-<li><strong>工具：</strong>Git（熟练）</li>
-<li><strong>外语：</strong>大学英语四级，考研英语一44，能流畅阅读英文文档</li>
-<li><strong>文档技能：</strong>Excel（熟练）；拥有良好的文档编写能力</li>
-<li>拥有良好的开发规范，了解项目基本开发流程；</li>
-</ul>
-<h2 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h2><ul>
-<li>喜欢钻研技术</li>
-</ul>
+<h2 id="加载方式"><a href="#加载方式" class="headerlink" title="加载方式"></a>加载方式</h2><p>BeanFactroy采用的是延迟加载形式来注入Bean的，即只有在使用到某个Bean 时(调用getBean())，才对该Bean进行加载实例化。这样，我们就不能发现一些存在的Spring的配置问题。如果Bean的某一个属性没有注入，BeanFacotry加载后，直至第一次使用调用getBean方法才会抛出异常。</p>
+<p>ApplicationContext，它是在容器启动时，一次性创建了所有的Bean。这样，在容器启动时，我们就可以发现Spring中存在的配置错误，这样有利于检查所</p>
+<p>依赖属性是否注入。 ApplicationContext启动后预载入所有的单实例Bean，通过预载入单实例bean ,确保当你需要的时候，你就不用等待，因为它们已经创建好了。</p>
+<p>相对于基本的BeanFactory，ApplicationContext 唯一的不足是占用内存空间。当应用程序配置Bean较多时，程序启动较慢。</p>
+<h2 id="创建方式"><a href="#创建方式" class="headerlink" title="创建方式"></a>创建方式</h2><p>BeanFactory通常以编程的方式被创建，ApplicationContext还能以声明的方式创建，如使用ContextLoader。</p>
+<h2 id="注册方式"><a href="#注册方式" class="headerlink" title="注册方式"></a>注册方式</h2><p>BeanFactory和ApplicationContext都支持BeanPostProcessor、</p>
+<p>BeanFactoryPostProcessor的使用，但两者之间的区别是：BeanFactory需要手动注册，而ApplicationContext则是自动注册。</p>
 
                 
             </div>
@@ -536,7 +511,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/04/11/%E7%AE%80%E5%8E%86/">http://example.com/2022/04/11/%E7%AE%80%E5%8E%86/</a>
+                    <a href="http://example.com/2021/03/11/BeanFactory%E5%92%8CApplicationContext%E7%9A%84%E5%8C%BA%E5%88%AB/">http://example.com/2021/03/11/BeanFactory%E5%92%8CApplicationContext%E7%9A%84%E5%8C%BA%E5%88%AB/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -574,8 +549,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
-                                    <span class="chip bg-color">个人简历</span>
+                                <a href="/tags/Spring/">
+                                    <span class="chip bg-color">Spring</span>
                                 </a>
                             
                         </div>
@@ -749,10 +724,9 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
                 <a href="/2022/04/11/%E7%AE%80%E5%8E%86/">
                     <div class="card-image">
@@ -770,9 +744,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -781,7 +755,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -800,13 +773,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/03/11/BeanFactory%E5%92%8CApplicationContext%E7%9A%84%E5%8C%BA%E5%88%AB/">
+                <a href="/2021/03/11/Spring%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="BeanFactory和ApplicationContext的区别">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Spring控制反转">
                         
-                        <span class="card-title">BeanFactory和ApplicationContext的区别</span>
+                        <span class="card-title">Spring控制反转</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
