@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="集合, ZZH">
-    <meta name="description" content="集合用于存储对象与数组的区别数组固定长度，集合可变长度数组可以存储基本数据，也可以存储引用数据类型；集合只能存储引用数据类型集合可以存储不同数据类型常用的集合类Map接口和Collection接口是所有集合框架的父接口MapHashMapT">
+    <meta name="keywords" content="MySQL, ZZH">
+    <meta name="description" content="MySQLSQLStructureedQueryLanguage（结构化查询语言）MySQL关系型数据库管理系统，属于Oracle三大范式第一范式每个列不可以再拆分第二范式在第一范式的基础上，非主键列完全依赖于主键，而不是主键的一部分第三范">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +19,7 @@
 
     
 
-    <title>集合 | ZZH</title>
+    <title>MySQL | ZZH</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">集合</h1>
+                    <h1 class="description center-align post-title">MySQL</h1>
                 </div>
             </div>
         </div>
@@ -430,8 +430,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Java/">
-                                <span class="chip bg-color">Java</span>
+                            <a href="/tags/MySQL/">
+                                <span class="chip bg-color">MySQL</span>
                             </a>
                         
                     </div>
@@ -446,7 +446,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-02-14
+                    2021-03-24
                 </div>
                 
 
@@ -467,7 +467,15 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h1><h2 id="用于存储对象"><a href="#用于存储对象" class="headerlink" title="用于存储对象"></a>用于存储对象</h2><h2 id="与数组的区别"><a href="#与数组的区别" class="headerlink" title="与数组的区别"></a>与数组的区别</h2><h3 id="数组固定长度，集合可变长度"><a href="#数组固定长度，集合可变长度" class="headerlink" title="数组固定长度，集合可变长度"></a>数组固定长度，集合可变长度</h3><h3 id="数组可以存储基本数据，也可以存储引用数据类型；集合只能存储引用数据类型"><a href="#数组可以存储基本数据，也可以存储引用数据类型；集合只能存储引用数据类型" class="headerlink" title="数组可以存储基本数据，也可以存储引用数据类型；集合只能存储引用数据类型"></a>数组可以存储基本数据，也可以存储引用数据类型；集合只能存储引用数据类型</h3><h3 id="集合可以存储不同数据类型"><a href="#集合可以存储不同数据类型" class="headerlink" title="集合可以存储不同数据类型"></a>集合可以存储不同数据类型</h3><h2 id="常用的集合类"><a href="#常用的集合类" class="headerlink" title="常用的集合类"></a>常用的集合类</h2><h3 id="Map接口和Collection接口是所有集合框架的父接口"><a href="#Map接口和Collection接口是所有集合框架的父接口" class="headerlink" title="Map接口和Collection接口是所有集合框架的父接口"></a>Map接口和Collection接口是所有集合框架的父接口</h3><h3 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h3><h4 id="HashMap"><a href="#HashMap" class="headerlink" title="HashMap"></a>HashMap</h4><h4 id="TreeMap"><a href="#TreeMap" class="headerlink" title="TreeMap"></a>TreeMap</h4><h3 id="Collection"><a href="#Collection" class="headerlink" title="Collection"></a>Collection</h3><h4 id="Set"><a href="#Set" class="headerlink" title="Set"></a>Set</h4><h5 id="有序容器"><a href="#有序容器" class="headerlink" title="有序容器"></a>有序容器</h5><h5 id="HashSet、TreeSet和LinkedHashSet"><a href="#HashSet、TreeSet和LinkedHashSet" class="headerlink" title="HashSet、TreeSet和LinkedHashSet"></a>HashSet、TreeSet和LinkedHashSet</h5><h4 id="List"><a href="#List" class="headerlink" title="List"></a>List</h4><h5 id="无序容器，不可以重复元素"><a href="#无序容器，不可以重复元素" class="headerlink" title="无序容器，不可以重复元素"></a>无序容器，不可以重复元素</h5><h5 id="ArrayList、LinkedList、Stack等"><a href="#ArrayList、LinkedList、Stack等" class="headerlink" title="ArrayList、LinkedList、Stack等"></a>ArrayList、LinkedList、Stack等</h5><h4 id="Iterator：迭代器"><a href="#Iterator：迭代器" class="headerlink" title="Iterator：迭代器"></a>Iterator：迭代器</h4><h2 id="数组转List"><a href="#数组转List" class="headerlink" title="数组转List"></a>数组转List</h2><h3 id="使用Arrays-asList-array"><a href="#使用Arrays-asList-array" class="headerlink" title="使用Arrays.asList(array)"></a>使用Arrays.asList(array)</h3><h3 id="List转Array：用toArray（）方法"><a href="#List转Array：用toArray（）方法" class="headerlink" title="List转Array：用toArray（）方法"></a>List转Array：用toArray（）方法</h3><p><img src="/../images/%E9%9B%86%E5%90%88/%E9%9B%86%E5%90%88.png"></p>
+                <h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><h2 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h2><h3 id="StructureedQueryLanguage（结构化查询语言）"><a href="#StructureedQueryLanguage（结构化查询语言）" class="headerlink" title="StructureedQueryLanguage（结构化查询语言）"></a>StructureedQueryLanguage（结构化查询语言）</h3><h2 id="MySQL-1"><a href="#MySQL-1" class="headerlink" title="MySQL"></a>MySQL</h2><h3 id="关系型数据库管理系统，属于Oracle"><a href="#关系型数据库管理系统，属于Oracle" class="headerlink" title="关系型数据库管理系统，属于Oracle"></a>关系型数据库管理系统，属于Oracle</h3><h2 id="三大范式"><a href="#三大范式" class="headerlink" title="三大范式"></a>三大范式</h2><h3 id="第一范式"><a href="#第一范式" class="headerlink" title="第一范式"></a>第一范式</h3><h4 id="每个列不可以再拆分"><a href="#每个列不可以再拆分" class="headerlink" title="每个列不可以再拆分"></a>每个列不可以再拆分</h4><h3 id="第二范式"><a href="#第二范式" class="headerlink" title="第二范式"></a>第二范式</h3><h4 id="在第一范式的基础上，非主键列完全依赖于主键，而不是主键的一部分"><a href="#在第一范式的基础上，非主键列完全依赖于主键，而不是主键的一部分" class="headerlink" title="在第一范式的基础上，非主键列完全依赖于主键，而不是主键的一部分"></a>在第一范式的基础上，非主键列完全依赖于主键，而不是主键的一部分</h4><h3 id="第三范式"><a href="#第三范式" class="headerlink" title="第三范式"></a>第三范式</h3><h4 id="在第二范式的基础上，非主键列只依赖于主键，而不依赖于其他非主键"><a href="#在第二范式的基础上，非主键列只依赖于主键，而不依赖于其他非主键" class="headerlink" title="在第二范式的基础上，非主键列只依赖于主键，而不依赖于其他非主键"></a>在第二范式的基础上，非主键列只依赖于主键，而不依赖于其他非主键</h4><h2 id="权限表"><a href="#权限表" class="headerlink" title="权限表"></a>权限表</h2><h3 id="user权限表：记录允许连接到服务器的用户帐号信息，里面的权限是全局级的。"><a href="#user权限表：记录允许连接到服务器的用户帐号信息，里面的权限是全局级的。" class="headerlink" title="user权限表：记录允许连接到服务器的用户帐号信息，里面的权限是全局级的。"></a>user权限表：记录允许连接到服务器的用户帐号信息，里面的权限是全局级的。</h3><p>db权限表：记录各个帐号在各个数据库上的操作权限。<br>table_priv权限表：记录数据表级的操作权限。<br>columns_priv权限表：记录数据列级的操作权限。<br>host权限表：配合db权限表对给定主机上数据库级操作权限作更细致的控制。这个权限表不受GRANT和<br>REVOKE语句的影响。</p>
+<h2 id="视图"><a href="#视图" class="headerlink" title="视图"></a>视图</h2><h3 id="视图的列可以来自不同的表，是表的抽象和在逻辑意义上建立的新关系。"><a href="#视图的列可以来自不同的表，是表的抽象和在逻辑意义上建立的新关系。" class="headerlink" title="视图的列可以来自不同的表，是表的抽象和在逻辑意义上建立的新关系。"></a>视图的列可以来自不同的表，是表的抽象和在逻辑意义上建立的新关系。</h3><p>视图是由基本表(实表)产生的表(虚表)。<br>视图的建立和删除不影响基本表。<br>对视图内容的更新(添加，删除和修改)直接影响基本表。<br>当视图来自多个基本表时，不允许添加和删除数据。视图的操作包括创建视图，查看视图，删除视<br>图和修改视图。</p>
+<h3 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h3><h4 id="简化复杂的SQL操作"><a href="#简化复杂的SQL操作" class="headerlink" title="简化复杂的SQL操作"></a>简化复杂的SQL操作</h4><h4 id="保护数据"><a href="#保护数据" class="headerlink" title="保护数据"></a>保护数据</h4><h4 id="更改数据格式和表示"><a href="#更改数据格式和表示" class="headerlink" title="更改数据格式和表示"></a>更改数据格式和表示</h4><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><h4 id="简单化"><a href="#简单化" class="headerlink" title="简单化"></a>简单化</h4><h4 id="数据安全"><a href="#数据安全" class="headerlink" title="数据安全"></a>数据安全</h4><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><h4 id="性能下降"><a href="#性能下降" class="headerlink" title="性能下降"></a>性能下降</h4><h4 id="修改有限制"><a href="#修改有限制" class="headerlink" title="修改有限制"></a>修改有限制</h4><h2 id="游标"><a href="#游标" class="headerlink" title="游标"></a>游标</h2><h3 id="游标是系统为用户开设的一个数据缓冲区，存放SQL语句的执行结果，每个游标区都有一个名字。用户"><a href="#游标是系统为用户开设的一个数据缓冲区，存放SQL语句的执行结果，每个游标区都有一个名字。用户" class="headerlink" title="游标是系统为用户开设的一个数据缓冲区，存放SQL语句的执行结果，每个游标区都有一个名字。用户"></a>游标是系统为用户开设的一个数据缓冲区，存放SQL语句的执行结果，每个游标区都有一个名字。用户</h3><p>可以通过游标逐一获取记录并赋给主变量，交由主语言进一步处理</p>
+<h2 id="触发器"><a href="#触发器" class="headerlink" title="触发器"></a>触发器</h2><h3 id="触发器是用户定义在关系表上的一类由事件驱动的特殊的存储过程。触发器是指一段代码，当触发某个"><a href="#触发器是用户定义在关系表上的一类由事件驱动的特殊的存储过程。触发器是指一段代码，当触发某个" class="headerlink" title="触发器是用户定义在关系表上的一类由事件驱动的特殊的存储过程。触发器是指一段代码，当触发某个"></a>触发器是用户定义在关系表上的一类由事件驱动的特殊的存储过程。触发器是指一段代码，当触发某个</h3><p>事件时，自动执行这些代码。</p>
+<h3 id="Before-Insert"><a href="#Before-Insert" class="headerlink" title="Before Insert"></a>Before Insert</h3><p>After Insert<br>Before Update<br>After Update<br>Before Delete<br>After Delete</p>
+<h2 id="超键、候选键、主键、外键"><a href="#超键、候选键、主键、外键" class="headerlink" title="超键、候选键、主键、外键"></a>超键、候选键、主键、外键</h2><h3 id="超键：在关系中能唯一标识元组的属性集称为关系模式的超键。一个属性可以为作为一个超键，多个属"><a href="#超键：在关系中能唯一标识元组的属性集称为关系模式的超键。一个属性可以为作为一个超键，多个属" class="headerlink" title="超键：在关系中能唯一标识元组的属性集称为关系模式的超键。一个属性可以为作为一个超键，多个属"></a>超键：在关系中能唯一标识元组的属性集称为关系模式的超键。一个属性可以为作为一个超键，多个属</h3><p>性组合在一起也可以作为一个超键。超键包含候选键和主键。</p>
+<h3 id="候选键：是-小超键，即没有冗余元素的超键。"><a href="#候选键：是-小超键，即没有冗余元素的超键。" class="headerlink" title="候选键：是 小超键，即没有冗余元素的超键。"></a>候选键：是 小超键，即没有冗余元素的超键。</h3><h3 id="主键：数据库表中对储存数据对象予以唯一和完整标识的数据列或属性的组合。"><a href="#主键：数据库表中对储存数据对象予以唯一和完整标识的数据列或属性的组合。" class="headerlink" title="主键：数据库表中对储存数据对象予以唯一和完整标识的数据列或属性的组合。"></a>主键：数据库表中对储存数据对象予以唯一和完整标识的数据列或属性的组合。</h3><h3 id="外键：在一个表中存在的另一个表的主键称此表的外键"><a href="#外键：在一个表中存在的另一个表的主键称此表的外键" class="headerlink" title="外键：在一个表中存在的另一个表的主键称此表的外键"></a>外键：在一个表中存在的另一个表的主键称此表的外键</h3><h2 id="约束"><a href="#约束" class="headerlink" title="约束"></a>约束</h2><h3 id="NOT-NULL-用于控制字段的内容一定不能为空（NULL）。"><a href="#NOT-NULL-用于控制字段的内容一定不能为空（NULL）。" class="headerlink" title="NOT NULL: 用于控制字段的内容一定不能为空（NULL）。"></a>NOT NULL: 用于控制字段的内容一定不能为空（NULL）。</h3><p>UNIQUE: 控件字段内容不能重复，一个表允许有多个 Unique 约束。<br>PRIMARY KEY: 也是用于控件字段内容不能重复，但它在一个表只允许出现一个。<br>FOREIGN KEY: 用于预防破坏表之间连接的动作，也能防止非法数据插入外键列，因为它必须是它指向<br>的那个表中的值之一。<br>CHECK: 用于控制字段的值范围。</p>
+<h2 id="六种关联查询"><a href="#六种关联查询" class="headerlink" title="六种关联查询"></a>六种关联查询</h2><h3 id="交叉连接（CROSS-JOIN）"><a href="#交叉连接（CROSS-JOIN）" class="headerlink" title="交叉连接（CROSS JOIN）"></a>交叉连接（CROSS JOIN）</h3><p>内连接（INNER JOIN）<br>外连接（LEFT JOIN&#x2F;RIGHT JOIN）<br>联合查询（UNION与UNION ALL）<br>全连接（FULL JOIN）<br>交叉连接（CROSS JOIN）</p>
+<h2 id="子查询"><a href="#子查询" class="headerlink" title="子查询"></a>子查询</h2><h3 id="一条SQL语句的查询结果做为另一条查询语句的条件或查询结果"><a href="#一条SQL语句的查询结果做为另一条查询语句的条件或查询结果" class="headerlink" title="一条SQL语句的查询结果做为另一条查询语句的条件或查询结果"></a>一条SQL语句的查询结果做为另一条查询语句的条件或查询结果</h3><h3 id="多条SQL语句嵌套使用，内部的SQL查询语句称为子查询。"><a href="#多条SQL语句嵌套使用，内部的SQL查询语句称为子查询。" class="headerlink" title="多条SQL语句嵌套使用，内部的SQL查询语句称为子查询。"></a>多条SQL语句嵌套使用，内部的SQL查询语句称为子查询。</h3><h3 id="三种情况"><a href="#三种情况" class="headerlink" title="三种情况"></a>三种情况</h3><h4 id="子查询是单行单列的情况：结果集是一个值，父查询使用：-x3D-、-lt-、-gt-等运算符"><a href="#子查询是单行单列的情况：结果集是一个值，父查询使用：-x3D-、-lt-、-gt-等运算符" class="headerlink" title="子查询是单行单列的情况：结果集是一个值，父查询使用：&#x3D;、 &lt;、 &gt; 等运算符"></a>子查询是单行单列的情况：结果集是一个值，父查询使用：&#x3D;、 &lt;、 &gt; 等运算符</h4><h4 id="子查询是多行单列的情况：结果集类似于一个数组，父查询使用：in-运算符"><a href="#子查询是多行单列的情况：结果集类似于一个数组，父查询使用：in-运算符" class="headerlink" title="子查询是多行单列的情况：结果集类似于一个数组，父查询使用：in 运算符"></a>子查询是多行单列的情况：结果集类似于一个数组，父查询使用：in 运算符</h4><h4 id="子查询是多行多列的情况：结果集类似于一张虚拟表，不能用于where-条件，用于select子句中做为子表"><a href="#子查询是多行多列的情况：结果集类似于一张虚拟表，不能用于where-条件，用于select子句中做为子表" class="headerlink" title="子查询是多行多列的情况：结果集类似于一张虚拟表，不能用于where 条件，用于select子句中做为子表"></a>子查询是多行多列的情况：结果集类似于一张虚拟表，不能用于where 条件，用于select子句中做为子表</h4><p><img src="/../images/MySQL/MySQL.png"></p>
 
                 
             </div>
@@ -494,7 +502,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/02/14/%E9%9B%86%E5%90%88/">http://example.com/2021/02/14/%E9%9B%86%E5%90%88/</a>
+                    <a href="http://example.com/2021/03/24/MySQL/">http://example.com/2021/03/24/MySQL/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -532,8 +540,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Java/">
-                                    <span class="chip bg-color">Java</span>
+                                <a href="/tags/MySQL/">
+                                    <span class="chip bg-color">MySQL</span>
                                 </a>
                             
                         </div>
@@ -711,13 +719,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/02/27/Date%E7%9B%B8%E5%85%B3/">
+                <a href="/2022/04/11/%E7%AE%80%E5%8E%86/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Date相关">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="简历">
                         
-                        <span class="card-title">Date相关</span>
+                        <span class="card-title">简历</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -728,7 +736,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-27
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
                         </span>
                         <span class="publish-author">
                             
@@ -741,8 +749,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
+                        <span class="chip bg-color">个人简历</span>
                     </a>
                     
                 </div>
@@ -756,13 +764,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/13/%E9%87%8D%E5%86%99%E5%92%8C%E9%87%8D%E8%BD%BD/">
+                <a href="/2021/03/23/MyBatis/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="重写和重载">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="MyBatis">
                         
-                        <span class="card-title">重写和重载</span>
+                        <span class="card-title">MyBatis</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -773,7 +781,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-23
                             </span>
                         <span class="publish-author">
                             
@@ -786,8 +794,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/MyBatis/">
+                        <span class="chip bg-color">MyBatis</span>
                     </a>
                     
                 </div>
