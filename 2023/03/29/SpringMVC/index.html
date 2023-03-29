@@ -5,8 +5,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Hexo">
-    <meta name="description" content="SpringMVC
-基于Java实现了MVC设计模式请求驱动类型的轻量级web框架优点可以支持各种视图技术，而不是仅仅局限于jsp与Spring框架集成清晰的角色分配支持各种请求资源的映射核心组件前端控制器DispatcherServlet">
+    <meta name="description" content="
+title:Sping MVC 脑图date：2019-04-24 15：40：22SpringMVC
+基于Java实现了MVC设计模式请求驱动类型的轻量级web框架优点可以支持各种视图技术，而不是仅仅局限于jsp与Spring框架集成清">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -397,7 +398,8 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="SpringMVC"><a href="#SpringMVC" class="headerlink" title="SpringMVC"></a>SpringMVC</h1><p><img src="/2023/03/29/SpringMVC/SpringMVC.png"></p>
+                <hr>
+<h2 id="title-Sping-MVC-脑图date：2019-04-24-15：40：22"><a href="#title-Sping-MVC-脑图date：2019-04-24-15：40：22" class="headerlink" title="title:Sping MVC 脑图date：2019-04-24 15：40：22"></a>title:Sping MVC 脑图<br>date：2019-04-24 15：40：22</h2><h1 id="SpringMVC"><a href="#SpringMVC" class="headerlink" title="SpringMVC"></a>SpringMVC</h1><p><img src="/2023/03/29/SpringMVC/SpringMVC.png"></p>
 <h2 id="基于Java实现了MVC设计模式请求驱动类型的轻量级web框架"><a href="#基于Java实现了MVC设计模式请求驱动类型的轻量级web框架" class="headerlink" title="基于Java实现了MVC设计模式请求驱动类型的轻量级web框架"></a>基于Java实现了MVC设计模式请求驱动类型的轻量级web框架</h2><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><h3 id="可以支持各种视图技术，而不是仅仅局限于jsp"><a href="#可以支持各种视图技术，而不是仅仅局限于jsp" class="headerlink" title="可以支持各种视图技术，而不是仅仅局限于jsp"></a>可以支持各种视图技术，而不是仅仅局限于jsp</h3><h3 id="与Spring框架集成"><a href="#与Spring框架集成" class="headerlink" title="与Spring框架集成"></a>与Spring框架集成</h3><h3 id="清晰的角色分配"><a href="#清晰的角色分配" class="headerlink" title="清晰的角色分配"></a>清晰的角色分配</h3><h3 id="支持各种请求资源的映射"><a href="#支持各种请求资源的映射" class="headerlink" title="支持各种请求资源的映射"></a>支持各种请求资源的映射</h3><h2 id="核心组件"><a href="#核心组件" class="headerlink" title="核心组件"></a>核心组件</h2><h3 id="前端控制器"><a href="#前端控制器" class="headerlink" title="前端控制器"></a>前端控制器</h3><h4 id="DispatcherServlet"><a href="#DispatcherServlet" class="headerlink" title="DispatcherServlet"></a>DispatcherServlet</h4><h5 id="用来处理所有的HTTP请求和响应"><a href="#用来处理所有的HTTP请求和响应" class="headerlink" title="用来处理所有的HTTP请求和响应"></a>用来处理所有的HTTP请求和响应</h5><h3 id="处理器映射器"><a href="#处理器映射器" class="headerlink" title="处理器映射器"></a>处理器映射器</h3><h4 id="HandlerMapping"><a href="#HandlerMapping" class="headerlink" title="HandlerMapping"></a>HandlerMapping</h4><h3 id="处理器适配器"><a href="#处理器适配器" class="headerlink" title="处理器适配器"></a>处理器适配器</h3><h4 id="HandlerAdapter"><a href="#HandlerAdapter" class="headerlink" title="HandlerAdapter"></a>HandlerAdapter</h4><h3 id="处理器"><a href="#处理器" class="headerlink" title="处理器"></a>处理器</h3><h4 id="Handler"><a href="#Handler" class="headerlink" title="Handler"></a>Handler</h4><h3 id="视图解析器"><a href="#视图解析器" class="headerlink" title="视图解析器"></a>视图解析器</h3><h4 id="ViewResolver"><a href="#ViewResolver" class="headerlink" title="ViewResolver"></a>ViewResolver</h4><h3 id="视图"><a href="#视图" class="headerlink" title="视图"></a>视图</h3><h4 id="View"><a href="#View" class="headerlink" title="View"></a>View</h4><h3 id="控制器是单例模式，多线程访问的时候有安全隐患，所以在控制器里面不能写字段"><a href="#控制器是单例模式，多线程访问的时候有安全隐患，所以在控制器里面不能写字段" class="headerlink" title="控制器是单例模式，多线程访问的时候有安全隐患，所以在控制器里面不能写字段"></a>控制器是单例模式，多线程访问的时候有安全隐患，所以在控制器里面不能写字段</h3><h2 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h2><h3 id="（1）用户发送请求至前端控制器DispatcherServlet；"><a href="#（1）用户发送请求至前端控制器DispatcherServlet；" class="headerlink" title="（1）用户发送请求至前端控制器DispatcherServlet；"></a>（1）用户发送请求至前端控制器DispatcherServlet；</h3><p>（2） DispatcherServlet收到请求后，调用HandlerMapping处理器映射器， 请求获取Handle；<br>（3）处理器映射器根据请求url找到具体的处理器，生成处理器对象及处理器拦 截器(如果有则生成)一并返回给DispatcherServlet；<br>（4）DispatcherServlet 调用 HandlerAdapter处理器适配器；<br>（5）HandlerAdapter 经过适配调用 具体处理器(Handler，也叫后端控制 器)；<br>（6）Handler执行完成返回ModelAndView；<br>（7）HandlerAdapter将Handler执行结果ModelAndView返回给 DispatcherServlet；<br>（8）DispatcherServlet将ModelAndView传给ViewResolver视图解析器进行 解析；<br>（9）ViewResolver解析后返回具体View；<br>（10）DispatcherServlet对View进行渲染视图（即将模型数据填充至视图中）<br>（11）DispatcherServlet响应用户。</p>
 
                 
